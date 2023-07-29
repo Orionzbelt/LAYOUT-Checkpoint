@@ -1,0 +1,289 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.full{
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.navbars{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 265px;
+    margin-top: -40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    padding: 7px;
+}
+.about{
+    color: lightseagreen;
+}
+.career, .dep{
+    color: lightslategrey;
+}
+
+.logo{
+    height: 40px;
+    margin-left: 48%;
+    margin-top: 100px;
+}
+.making{
+    font-size: 32px;
+    margin-top: 15px;
+    font-weight: 2;
+    margin-left: 25%;
+    color: lightseagreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contain{
+    display: flex;
+}
+.we, .also{
+    width: 25rem;
+    font-size: 18px;
+    color: lightslategrey;
+}
+.we{
+    margin-left: 18rem;
+}
+.also{
+    margin-left: 3rem;
+}
+.container2, .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 20px 0 0 90px;
+    height: 10vh;
+    width: 110%;
+    color: #fff;
+}
+.col1{
+    margin: 0 0 0 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.col2{
+    border-radius: 10px;
+    background-color: blue;
+}
+.col3{
+    border-radius: 10px;
+    background-color: navy;
+}
+.svg{
+    padding: 40px 0 0 40px;
+}
+.for{
+    font-size: 30px;
+    margin: 10px 0 0 35px;
+}
+.find{
+    margin: 10px 0 0 35px;
+    font-size: 22px;
+}
+.select{
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    margin: 90px 0 0 35px;
+    background-color: aqua;
+}
+.selects{
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    margin: 60px 0 0 35px;
+    background-color: blue;
+}
+.sel{
+    background-color: navy;
+    color: #fff;
+    margin: 20px;
+    font-size: 23px;
+    border: none;
+    padding-left: 15px;
+}
+.are{
+    font-size: 20px;
+    font-weight: lighter;
+    color: lightseagreen;
+    margin: 310px 0 0 200px;
+}
+.logs{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin: 0 0 0 850px;
+}
+.container4{
+    background-color: #D0FAF4;
+    display: flex;
+    gap: 250px;
+}
+.theworld{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(25, 134, 128);
+    margin: 10px 0 40px 200px;
+}
+.theworld2{
+    width: 25rem;
+    font-size: 18px;
+    color: lightslategrey;
+    margin: 10px 0 20px 200px;
+}
+.logocropped{
+    margin: 10px 0 0 180px;
+}
+.sideb{
+    display: flex;
+    align-self: center;
+}
+.sideb1, .sideb2{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 20px 0 0 20px;
+}
+.box1{
+    background-color: #FFFFFF;
+    margin: center;
+    padding: 12px 0 0 20px;
+}
+.box1img{
+    padding: 0 0 0 120px;
+
+}
+.box2{
+    background-color: #FFFFFF;
+    margin: center;
+    padding: 0 0 0 20px;
+}
+.box2img{
+    padding: 0 0 0 120px;
+}
+.box3{
+    background-color: #FFFFFF;
+    margin: center;
+    padding: 0 0 0 20px;
+}
+.box3img{
+    padding: 0 0 0 30px;
+    justify-content: center;
+}
+.box4{
+    background-color: #FFFFFF;
+    margin: center;
+    padding: 0 0 0 20px;
+}
+.box4img{
+    padding: 0 0 0 30px;
+    justify-content: center;
+    
+}
+.leader, .patients, .appointment, .doctors{
+    color: #A5EAFF;
+   font-size: larger;
+}
+.third{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.improve{
+    font-size: 32px;
+    margin-top: 15px;
+    font-weight: 2;
+    margin-left: 25%;
+    color: lightseagreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.more{
+    width: 25rem;
+    font-size: 18px;
+    color: lightslategrey;
+    margin-left: 25%;
+}
+.fourth{
+    align-items: center;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0 0 200px;
+    margin-top: 90px;
+    width: 50%;
+    align-items: center;
+}
+.warsaw, .barcelona, .munich, .instanbul, .rome, .bologna, .curitibia, .rio, .mexico{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+.img_section{
+    margin-bottom: 5%;
+}
+.btn-fourth{
+    background-color: #3D83DF;
+    color: whitesmoke;
+    border-radius: 10%;
+    border: none;
+    margin-top: 8%;
+    height: 25px;
+
+}
+.fifth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.fifthbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sounds{
+    font-size: 25px;
+}
+.lastbtn{
+    background-color:#429DF2;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+.footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
